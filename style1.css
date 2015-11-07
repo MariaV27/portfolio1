@@ -1,0 +1,50 @@
+body {
+	background-color: blue
+	font-size: 20px;
+	font-family: Cambria
+}
+
+header, article, section, footer {
+	border: 4px solid yellow;
+	margin: 4px;
+	background-color: crimson
+}
+
+header {
+	position: fixed;
+	width: 700px;
+	font-family: Cambria;
+	font-size: 30px;
+	background-color: turquoise;
+}
+
+nav {
+	position: relative;
+	border: 10px;
+	border-color: green;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: Cambria;
+}
+
+section {
+	position: static;
+	background-color: grey;
+	width: 700px;
+	letter-spacing: 200px
+}
+
+article {
+	position: absolute;
+	background-color: grey;
+	font-size: 25px;
+	height: 450px;
+
+}
+
+footer {
+	position: fixed;
+	font-size: 25px;
+	font-size: Cambria;
+}
+
